@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "rating": 5,
+        "review": "As regular readers will know, I have a soft spot for microbrands and new manufacturers. Yes, brands like Omega and Patek Philippe make some gorgeous timepieces and have carved out a secluded market of their own, but many smaller watchmakers produce some impressivly designed watches as well.",
+        "name": "Hope Sargent"
+    },
+    {
+        "id": 2,
+        "rating": 5,
+        "review": "In a fever pitched market, everyone wants in on the action. With a short list of iconic but nearly unobtainable sports watches you are left with a room full of other options that range from tastefully inspired pieces to less than savory doppelgängers. ",
+        "name": "Harrell Sweet"
+    },
+    {
+        "id": 3,
+        "rating": 5,
+        "review": "MW Timepieces is the brainchild of MaestroWorks Studio, a brand new watchmaker located in Jakarta, Indonesia. Mechanical watches have become increasingly popular in the island republic, as decades of economic growth have created a public with more disposable income.",
+        "name": "Rodgers Sanford"
+    },
+    {
+        "id": 4,
+        "rating": 5,
+        "review": "In March of 2021, British watchmaker Bremont announced the opening of a new manufacturing facility they called “The Wing.” In fact, this massive, 35,000 square foot space will house both their manufacturing and assembly operations. Along with this grand opening, Bremont announced the release a handful of new watches. ",
+        "name": "Holman Woodard"
+    },
+    {
+        "id": 5,
+        "rating": 5,
+        "review": "In the world of automatic watches, there are a number of established players. Brands like Omega, Rolex, and Patek Philippe are familiar to any watch enthusiast. But one of the fun things about mechanical watches is that there are so many microbrands and small startups.",
+        "name": "Delia Delacruz"
+    },
+    {
+        "id": 6,
+        "rating": 5,
+        "review": "You probably know their story by now. Former school teachers and watch aficionados Lorenzo and Lauren Ortega decided to call it quits on their careers and dive head-first into the scary world of microbrands, creating some of the most acclaimed and accessible timepieces of the last five years.",
+        "name": "Elva Melendez"
+    }
+]
