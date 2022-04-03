@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+
+    width: 100%;
+}
+
+.text-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.img-container img {
+    flex: 1;
+    width: 500px;
+    height: 400px;
+}
+
+.customer-review h2 {
+    margin-top: 400px;
+}
+
+.customer-review button {
+    margin-top: 200px;
+}
