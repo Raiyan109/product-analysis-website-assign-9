@@ -8,8 +8,10 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import useReview from './components/Hooks/useReview';
 
 function App() {
+
   return (
     <div className="App">
       <Header></Header>

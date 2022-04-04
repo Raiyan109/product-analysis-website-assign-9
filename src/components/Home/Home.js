@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useReview from '../Hooks/useReview';
 import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
 
+    const navigate = useNavigate()
     const [reviews, setReviews] = useReview()
     const slice = reviews.slice(0, 3)
     return (
@@ -27,7 +29,7 @@ const Home = () => {
                         slice.map(review => <Review review={review}></Review>)
                     }
                 </div>
-                <button>See All Reviews </button>
+                <button onClick={() => navigate('/reviews')}>See All Reviews </button>
             </div>
 
         </div>
