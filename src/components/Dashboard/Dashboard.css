@@ -1,3 +1,7 @@
 .chart-container {
     display: flex;
 }
+
+.dash-head {
+    color: #e98074;
+}

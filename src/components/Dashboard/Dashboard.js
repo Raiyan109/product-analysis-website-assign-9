@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, LineChart, Pie, PieChart, XAxis, YAxis } from 'recharts';
+import { Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './Dashboard.css'
 const Dashboard = () => {
     const data = [
@@ -43,19 +43,22 @@ const Dashboard = () => {
     return (
         <div className='chart-container'>
             <div>
+                <h2 className='dash-head'>Month Wise Sell </h2>
                 <LineChart width={400} height={300} data={data}>
-                    <Line dataKey={"investment"}></Line>
-                    <Line dataKey={"revenue"}></Line>
+
                     <Line dataKey={"sell"}></Line>
                     <XAxis dataKey={"month"}></XAxis>
-                    <YAxis></YAxis>
+                    <YAxis dataKey={"sell"}></YAxis>
+                    <Tooltip></Tooltip>
                 </LineChart>
             </div>
 
             <div>
-                <PieChart width={400} height={300} data={data}>
-                    <Pie data={data} dataKey={"investment"} cx="50%" cy="50%" outerRadius={60} fill="#8884d8"></Pie>
-                    <Pie data={data} dataKey={"investment"} cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d"></Pie>
+                <h2 className='dash-head'>Investment VS Revenue </h2>
+                <PieChart width={500} height={400} data={data}>
+                    <Pie data={data} dataKey={"investment"} cx="200" cy="200" outerRadius={60} fill="#8884d8" label></Pie>
+                    <Pie data={data} dataKey={"revenue"} cx="200" cy="200" innerRadius={70} outerRadius={90} fill="#82ca9d" label></Pie>
+                    <Tooltip></Tooltip>
                 </PieChart>
             </div>
         </div>
