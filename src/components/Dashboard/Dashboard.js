@@ -7,7 +7,7 @@ const Dashboard = () => {
             "month": "Mar",
             "investment": 100000,
             "sell": 241,
-            "revenue": 10401
+            "revenue": 104010
         },
         {
             "month": "Apr",
